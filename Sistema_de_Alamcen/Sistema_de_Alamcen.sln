@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema_de_Alamcen", "Sistema_de_Alamcen\Sistema_de_Alamcen.csproj", "{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C37DC609-0EBD-4278-B408-A01170D99064}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\bin\Debug\Sistema_de_Alamcen.exe.config
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\bin\Debug\Sistema_de_Alamcen.exe
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\bin\Debug\Sistema_de_Alamcen.pdb
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\obj\Debug\Sistema_de_Alamcen.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\obj\Debug\Sistema_de_Alamcen.Login.resources
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\obj\Debug\Sistema_de_Alamcen.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\obj\Debug\Sistema_de_Alamcen.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\obj\Debug\Sistema_de_Alamcen.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\obj\Debug\Sistema_de_Alamcen.exe
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\obj\Debug\Sistema_de_Alamcen.pdb
+C:\Users\LENOVO\Desktop\Sistema_de_Registro_de_almacen\Sistema_de_Alamcen\Sistema_de_Alamcen\obj\Debug\Sistema_de_Alamcen.Pagina_Inicial.resources

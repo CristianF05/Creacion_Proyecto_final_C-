@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Sistema_de_Registro_de_almacen\\Sistema_de_Alamcen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}|Sistema_de_Alamcen\\Sistema_de_Alamcen.csproj|c:\\users\\lenovo\\desktop\\sistema_de_registro_de_almacen\\sistema_de_alamcen\\sistema_de_alamcen\\pagina_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}|Sistema_de_Alamcen\\Sistema_de_Alamcen.csproj|solutionrelative:sistema_de_alamcen\\pagina_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}|Sistema_de_Alamcen\\Sistema_de_Alamcen.csproj|C:\\Users\\LENOVO\\Desktop\\Sistema_de_Registro_de_almacen\\Sistema_de_Alamcen\\sistema_de_alamcen\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}|Sistema_de_Alamcen\\Sistema_de_Alamcen.csproj|solutionrelative:sistema_de_alamcen\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}|Sistema_de_Alamcen\\Sistema_de_Alamcen.csproj|C:\\Users\\LENOVO\\Desktop\\Sistema_de_Registro_de_almacen\\Sistema_de_Alamcen\\sistema_de_alamcen\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0F2AEF74-07EE-4AE2-A384-BB6DF14173C4}|Sistema_de_Alamcen\\Sistema_de_Alamcen.csproj|solutionrelative:sistema_de_alamcen\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Sistema_de_Registro_de_almacen\\Sistema_de_Alamcen\\Sistema_de_Alamcen\\Conexion.cs",
+              "RelativeDocumentMoniker": "Sistema_de_Alamcen\\Conexion.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Sistema_de_Registro_de_almacen\\Sistema_de_Alamcen\\Sistema_de_Alamcen\\Conexion.cs",
+              "RelativeToolTip": "Sistema_de_Alamcen\\Conexion.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwBsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:03:06.567Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pagina_Inicial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Sistema_de_Registro_de_almacen\\Sistema_de_Alamcen\\Sistema_de_Alamcen\\Pagina_Inicial.cs",
+              "RelativeDocumentMoniker": "Sistema_de_Alamcen\\Pagina_Inicial.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Sistema_de_Registro_de_almacen\\Sistema_de_Alamcen\\Sistema_de_Alamcen\\Pagina_Inicial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema_de_Alamcen\\Pagina_Inicial.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T20:46:18.117Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Sistema_de_Registro_de_almacen\\Sistema_de_Alamcen\\Sistema_de_Alamcen\\Login.cs",
+              "RelativeDocumentMoniker": "Sistema_de_Alamcen\\Login.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Sistema_de_Registro_de_almacen\\Sistema_de_Alamcen\\Sistema_de_Alamcen\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema_de_Alamcen\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:02:22.412Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
