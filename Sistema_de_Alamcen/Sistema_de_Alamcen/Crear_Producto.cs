@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace Sistema_de_Alamcen
 {
-    public partial class Salida_de_inventario : Form
+    public partial class Crear_Producto : Form
     {
-        public Salida_de_inventario()
+        public Crear_Producto()
         {
             InitializeComponent();
         }
-
 
         private void btnProductos_Click(object sender, EventArgs e)
         {

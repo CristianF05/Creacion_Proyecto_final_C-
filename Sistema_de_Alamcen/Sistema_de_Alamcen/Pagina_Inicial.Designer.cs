@@ -30,10 +30,10 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.Productos = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnProductos = new System.Windows.Forms.Button();
+            this.btnProevedores = new System.Windows.Forms.Button();
+            this.btnEntrada = new System.Windows.Forms.Button();
+            this.btnSalida = new System.Windows.Forms.Button();
             this.txtNombre = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.Label();
             this.txtCategoria = new System.Windows.Forms.Label();
@@ -49,6 +49,8 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.btnCrear = new System.Windows.Forms.Button();
+            this.btnCrear_P = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -74,57 +76,61 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Productos
+            // btnProductos
             // 
-            this.Productos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.Productos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Productos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Productos.ForeColor = System.Drawing.Color.Teal;
-            this.Productos.Location = new System.Drawing.Point(8, 77);
-            this.Productos.Name = "Productos";
-            this.Productos.Size = new System.Drawing.Size(139, 27);
-            this.Productos.TabIndex = 3;
-            this.Productos.Text = "Productos";
-            this.Productos.UseVisualStyleBackColor = false;
+            this.btnProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductos.ForeColor = System.Drawing.Color.Teal;
+            this.btnProductos.Location = new System.Drawing.Point(8, 77);
+            this.btnProductos.Name = "btnProductos";
+            this.btnProductos.Size = new System.Drawing.Size(139, 27);
+            this.btnProductos.TabIndex = 3;
+            this.btnProductos.Text = "Productos";
+            this.btnProductos.UseVisualStyleBackColor = false;
+            this.btnProductos.Click += new System.EventHandler(this.Productos_Click);
             // 
-            // button3
+            // btnProevedores
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Teal;
-            this.button3.Location = new System.Drawing.Point(8, 146);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(139, 32);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Proevedores";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnProevedores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnProevedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProevedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProevedores.ForeColor = System.Drawing.Color.Teal;
+            this.btnProevedores.Location = new System.Drawing.Point(8, 146);
+            this.btnProevedores.Name = "btnProevedores";
+            this.btnProevedores.Size = new System.Drawing.Size(139, 32);
+            this.btnProevedores.TabIndex = 4;
+            this.btnProevedores.Text = "Proevedores";
+            this.btnProevedores.UseVisualStyleBackColor = false;
+            this.btnProevedores.Click += new System.EventHandler(this.btnProevedores_Click);
             // 
-            // button4
+            // btnEntrada
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Teal;
-            this.button4.Location = new System.Drawing.Point(8, 233);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(139, 37);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Entrada de Inventario";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnEntrada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnEntrada.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrada.ForeColor = System.Drawing.Color.Teal;
+            this.btnEntrada.Location = new System.Drawing.Point(8, 233);
+            this.btnEntrada.Name = "btnEntrada";
+            this.btnEntrada.Size = new System.Drawing.Size(139, 37);
+            this.btnEntrada.TabIndex = 5;
+            this.btnEntrada.Text = "Entrada de Inventario";
+            this.btnEntrada.UseVisualStyleBackColor = false;
+            this.btnEntrada.Click += new System.EventHandler(this.btnEntrada_Click);
             // 
-            // button5
+            // btnSalida
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Teal;
-            this.button5.Location = new System.Drawing.Point(8, 327);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(143, 36);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Salida de inventario";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnSalida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnSalida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalida.ForeColor = System.Drawing.Color.Teal;
+            this.btnSalida.Location = new System.Drawing.Point(4, 309);
+            this.btnSalida.Name = "btnSalida";
+            this.btnSalida.Size = new System.Drawing.Size(143, 36);
+            this.btnSalida.TabIndex = 6;
+            this.btnSalida.Text = "Salida de inventario";
+            this.btnSalida.UseVisualStyleBackColor = false;
+            this.btnSalida.Click += new System.EventHandler(this.btnSalida_Click);
             // 
             // txtNombre
             // 
@@ -200,6 +206,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(155, 412);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -249,12 +256,42 @@
             this.pictureBox7.TabIndex = 20;
             this.pictureBox7.TabStop = false;
             // 
+            // btnCrear
+            // 
+            this.btnCrear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnCrear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrear.ForeColor = System.Drawing.Color.Teal;
+            this.btnCrear.Location = new System.Drawing.Point(26, 110);
+            this.btnCrear.Name = "btnCrear";
+            this.btnCrear.Size = new System.Drawing.Size(107, 27);
+            this.btnCrear.TabIndex = 21;
+            this.btnCrear.Text = "Crear_Productos";
+            this.btnCrear.UseVisualStyleBackColor = false;
+            this.btnCrear.Click += new System.EventHandler(this.btnCrear_Click);
+            // 
+            // btnCrear_P
+            // 
+            this.btnCrear_P.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnCrear_P.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCrear_P.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrear_P.ForeColor = System.Drawing.Color.Teal;
+            this.btnCrear_P.Location = new System.Drawing.Point(12, 192);
+            this.btnCrear_P.Name = "btnCrear_P";
+            this.btnCrear_P.Size = new System.Drawing.Size(129, 27);
+            this.btnCrear_P.TabIndex = 22;
+            this.btnCrear_P.Text = "Crear_Proveedores";
+            this.btnCrear_P.UseVisualStyleBackColor = false;
+            this.btnCrear_P.Click += new System.EventHandler(this.btnCrear_P_Click);
+            // 
             // Pagina_Inicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(683, 408);
+            this.Controls.Add(this.btnCrear_P);
+            this.Controls.Add(this.btnCrear);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
@@ -269,10 +306,10 @@
             this.Controls.Add(this.txtCategoria);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.txtNombre);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.Productos);
+            this.Controls.Add(this.btnSalida);
+            this.Controls.Add(this.btnEntrada);
+            this.Controls.Add(this.btnProevedores);
+            this.Controls.Add(this.btnProductos);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
@@ -296,10 +333,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button Productos;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
-        public System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnProductos;
+        private System.Windows.Forms.Button btnProevedores;
+        private System.Windows.Forms.Button btnSalida;
+        public System.Windows.Forms.Button btnEntrada;
         private System.Windows.Forms.Label txtNombre;
         private System.Windows.Forms.Label txtPrecio;
         private System.Windows.Forms.Label txtCategoria;
@@ -314,5 +351,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Button btnCrear;
+        private System.Windows.Forms.Button btnCrear_P;
     }
 }
