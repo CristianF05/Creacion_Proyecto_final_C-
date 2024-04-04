@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="Entrada-de_Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entrada-de_Inventario.Designer.cs">
+      <DependentUpon>Entrada-de_Inventario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,13 +65,40 @@
     <Compile Include="Pagina_Inicial.Designer.cs">
       <DependentUpon>Pagina_Inicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Producto_ver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Producto_ver.Designer.cs">
+      <DependentUpon>Producto_ver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proevedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proevedor.Designer.cs">
+      <DependentUpon>Proevedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salida_de_inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salida_de_inventario.Designer.cs">
+      <DependentUpon>Salida_de_inventario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Entrada-de_Inventario.resx">
+      <DependentUpon>Entrada-de_Inventario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pagina_Inicial.resx">
       <DependentUpon>Pagina_Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Producto_ver.resx">
+      <DependentUpon>Producto_ver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proevedor.resx">
+      <DependentUpon>Proevedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -77,6 +110,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Salida_de_inventario.resx">
+      <DependentUpon>Salida_de_inventario.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
